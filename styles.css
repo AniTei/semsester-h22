@@ -1,16 +1,22 @@
 h1, h2, nav a {
     text-transform: uppercase;
-    font-family: 'quicksand';
+    font-family: 'quicksand', sans-serif;
 }
+
+
 nav a {
     color: #2241df;
     text-decoration: none;
 }
+
+
 main {
     max-width: 800px;
     margin: auto;
     background-color: #ffffff;
-    border: 
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 10px;
 }
 .logo {
     max-width: 150px;
@@ -24,6 +30,9 @@ body {
 header{
     background-color: #ffffff;
 }
+
+/*forside*/
+
 .slogan {
     color: #ff3a00;
 }
