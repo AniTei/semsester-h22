@@ -43,3 +43,28 @@ p {
 .slogan {
     color: #ff3a00;
 }
+
+/*exhibitions*/
+
+.cos {
+    background-color: #bdc6f6;
+}
+.evo {
+    background-color: #ffc4b3;
+}
+.bio {
+    background-color: #3eb4b4;
+}
+.rob {
+    background-color: #ffc4b3;
+}
+.eco {
+    background-color: #c6e9e9;
+}
+
+/*news*/
+
+.date {
+    color: #ffffff;
+    background-color: #2241df;
+}
