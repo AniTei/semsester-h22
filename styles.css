@@ -1,13 +1,24 @@
 h1, h2, nav a {
     text-transform: uppercase;
 }
+nav a {
+    color: #2241df;
+    text-decoration: none;
+}
 main {
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
+    background-color: #ffffff;
 }
 .logo {
     max-width: 150px;
 }
 .current {
-    text-decoration: line-through;
+    text-decoration: underline;
+}
+body {
+    background-color: #e9ecfb;
+}
+header{
+    background-color: #ffffff;
 }
