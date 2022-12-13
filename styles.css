@@ -1,0 +1,13 @@
+h1, h2, nav a {
+    text-transform: uppercase;
+}
+main {
+    max-width: 500px;
+    margin: auto;
+}
+.logo {
+    max-width: 150px;
+}
+.current {
+    text-decoration: line-through;
+}
