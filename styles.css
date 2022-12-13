@@ -1,5 +1,6 @@
 h1, h2, nav a {
     text-transform: uppercase;
+    font-family: 'quicksand';
 }
 nav a {
     color: #2241df;
@@ -9,6 +10,7 @@ main {
     max-width: 800px;
     margin: auto;
     background-color: #ffffff;
+    border: 
 }
 .logo {
     max-width: 150px;
@@ -21,4 +23,7 @@ body {
 }
 header{
     background-color: #ffffff;
+}
+.slogan {
+    color: #ff3a00;
 }
