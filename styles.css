@@ -3,12 +3,18 @@ h1, h2, nav a {
     font-family: 'quicksand', sans-serif;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 nav a {
-    color: #2241df;
+    color: #000000;
     text-decoration: none;
     font-size: 1.2em;
-    margin: 2px 20px;
+    margin: auto;
+    
+    
 }
 
 
@@ -21,18 +27,27 @@ main {
     border-width: 10px;
 }
 .logo {
-    max-width: 150px;
+    max-width: 100px;
+    float: left;
+    padding: 20px;
+    margin: unset;
+}
+.alogo {
+    margin: unset;
 }
 .current {
     border-bottom: solid;
     border-color: #3eb4b4;
     border-width: 3px;
+    max-height: 25px;
 }
 body {
     background-color: #e9ecfb;
 }
 header{
     background-color: #ffffff;
+    position: sticky;
+    top: 0px;
 }
 
 img {
@@ -71,4 +86,8 @@ p {
 .date {
     color: #ffffff;
     background-color: #2241df;
+}
+.news-img {
+    max-width: 50%;
+    max-height: 260px;
 }
