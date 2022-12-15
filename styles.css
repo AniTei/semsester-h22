@@ -3,11 +3,12 @@ h1, h2, nav a {
     font-family: 'quicksand', sans-serif;
 }
 h1{
-    padding: 50px 0px 0px 120px;
+    padding: 30px 0px 0px 120px;
     border-bottom: solid;
     border-color: #c6e9e9;
     border-width: 3px;
     max-height: 20px;
+    margin-bottom: 60px;
 
 }
 
@@ -109,7 +110,7 @@ p {
     text-align: center;
 }
 .day{
-    margin:0;
+    margin:auto;
     padding: 5px 0px 0px 0px;
     text-align: center;
 }
@@ -119,10 +120,53 @@ p {
 }
 
 /*volunteer*/
-.volunteer{
+.vol{
     background-color: #bdc6f6;
-    width: 100%;
+    width: 400px;
+    float: right;
+}
+.int{
+    clear: right;
+}
+.int h2 {
+    padding-top: 0;
 }
 .vol-end{
     background-color: #c6e9e9;
+}
+.vol-end img{
+    margin: 50px;
+    max-width: 300px;
+}
+.hall {
+    float: right;
+    position: relative;
+    bottom: 150px;
+}
+
+
+
+/*visit*/
+.hou{
+    background-color: #ffc4b3;
+    width: 400px;
+    margin: 0 0;
+}
+.hou p {
+    margin:auto;
+    text-align: center;
+} 
+.hou h2 {
+    margin: auto;    
+    padding-left: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.adm{
+    max-width: 400px;
+}
+.vis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto;
 }
