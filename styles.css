@@ -13,7 +13,7 @@ h1{
 }
 
 h2{
-    padding: 60px 0px 20px 60px;
+    padding: 40px 0px 20px 80px;
     margin: 0;
 }
 
@@ -27,8 +27,6 @@ nav a {
     text-decoration: none;
     font-size: 1.2em;
     margin: auto;
-    
-    
 }
 
 
@@ -61,6 +59,7 @@ header{
     background-color: #ffffff;
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 
 img {
@@ -68,8 +67,8 @@ img {
 }
 p {
     font-family: 'Roboto Slab', serif;
-    max-width: 360px;
-    padding: 0px 20px 20px 20px;
+    max-width: 300px;
+    padding: 0px 50px 20px 50px;
     margin: 0;
 }
 
@@ -78,6 +77,47 @@ p {
 .slogan {
     color: #ff3a00;
 }
+
+
+/*explore*/
+
+
+.elev {
+    background-color: #c6e9e9;
+    padding: 50px 0px 0px 0px;
+    max-width: 350px;
+    float: left;
+    margin-top: 40px;
+}
+.elev img {
+    max-width: 350px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.kid{
+    float: right;
+    margin-bottom: 30px;
+}
+.tea {
+    float: left;
+    position: relative;
+    top: 300px;
+}
+.res {
+    background-color:#bdc6f6;
+    max-width: 400px;
+    float: right;
+    padding: 350px 0px 200px 0px;
+}
+.hjerne {
+    max-width: 700px;
+    position: relative;
+    bottom: 180px;
+    margin-bottom: -185px;
+}
+
 
 /*exhibitions*/
 
@@ -127,6 +167,7 @@ p {
     'bilde tekst'
     'bilde dato'
     'bilde .';
+    margin-bottom: -20px;
 
 }
 .new-grid h2{
@@ -157,7 +198,7 @@ p {
 
 .new-grid img {
     width: 400px;
-    max-height: 330px;
+    max-height: 400px;
     grid-area: bilde;
 }
 
@@ -209,6 +250,11 @@ p {
 }
 .vis-grid {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: auto auto;
+}
+.wir {
+    margin-top: 50px;
+    margin-bottom: -5px;
 }
