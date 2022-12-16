@@ -121,38 +121,84 @@ p {
 
 /*exhibitions*/
 
-.exhi {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.exhi img {
-    max-width: 300px;
-}
-.exhi p {
-    max-width: 300px;
-}
+
 
 .cos {
     background-color: #bdc6f6;
-    max-width: 500px;
+    max-width: 600px;
     padding-bottom: 100px;
 }
-.cos img{
+.mane{
     max-width: 600px;
+    position: relative;
+    left: 200px;
+    bottom: 78px;
 }
     
 .evo {
     background-color: #ffc4b3;
+    max-width: 600px;
+    margin-left: 100px;
+    padding-left: 300px;
+    padding-bottom: 30px;
+
+}
+.fossil {
+    max-width: 400px;
+    position: relative;
+    bottom: 166px;
+    margin-bottom: -250px;
 }
 .bio {
-    background-color: #3eb4b4;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    max-width: 700px;
+    margin: 0px 0px 50px 100px;
+    border-bottom: #3eb4b4 100px solid;
+
 }
+.bio h2 {
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+    padding-left: 0;
+}
+
+.exh-hjerte {
+    width: 400px;
+    position: relative;
+    margin-top: -500px;
+    float: left;
+}
+.bio p {}
+
 .rob {
-    background-color: #ffc4b3;
+    background-color:#bdc6f6;
+    margin-right: 300px;
+    padding: 120px 0px 120px 0px;
+
+    
 }
+.exh-vr{
+    max-width: 400px;
+    position: relative;
+    left: 400px;
+    bottom: 450px;
+    margin-bottom: -300px;
+}
+.maur {
+    max-width: 300px;
+    margin: 0px 50px -468px 50px;
+    position: relative;
+    bottom: 462px;
+}
+
 .eco {
     background-color: #c6e9e9;
+    padding: 0px 0px 20px 400px;
+
 }
+
 
 /*news*/
 
