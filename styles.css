@@ -26,50 +26,21 @@ a {
     text-decoration: none;
     margin: auto;
 }
-
-
-
-
-
-
-
 h1, h2, nav a {
     text-transform: uppercase;
     font-family: 'quicksand', sans-serif;
 }
-
 h1{
     border-bottom: solid;
     border-color: #c6e9e9;
     border-width: 3px;
     max-height: 20px;
-    margin-bottom: 60px;
 }
-
 h2{
-    padding: 40px 0px 20px 80px;
     margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-img {
-    max-width: 800px;
 }
 p {
     font-family: 'Roboto Slab', serif;
-    max-width: 300px;
-    padding: 0px 50px 20px 50px;
-    margin: 0;
 }
 
 /*STOR*/
@@ -103,14 +74,17 @@ p {
         border-color: #3eb4b4;
         border-width: 3px;
     }
-
-
-
-
-
-
     h1{
         padding: 30px 0px 0px 120px;
+        margin-bottom: 60px;
+    }
+    h2{    
+        padding: 40px 0px 20px 80px;
+    }
+    p {
+        max-width: 300px;
+        padding: 0px 50px 20px 50px;
+        margin: 0;
     }
     
 }
@@ -154,22 +128,26 @@ p {
         padding-top: 20px;
         padding-bottom: 10px;
     }
-
-
-
-
     .current{
         font-weight:bold;
         font-size: 1.5em;
         border:none;
     }
-   
     h1 {
         padding: 30px 50px 0px 50px;
+        margin-bottom: 80px;
     }
     h2 {
         padding: 20px 0px 10px 50px;
     }
+    p {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+
+
+
 }
 
 
@@ -178,7 +156,7 @@ p {
 
 /*frontpage*/
 
-.front p{
+.front p {
     text-align: center;
 }
 .slogan {
@@ -351,7 +329,6 @@ p {
     margin-top: -500px;
     float: left;
 }
-.bio p {}
 
 .rob {
     background-color:#bdc6f6;
@@ -399,7 +376,6 @@ p {
 .new-grid h2{
     width: 390px;
     padding: 0;
-    margin: 0;
     grid-area: overskrift;
 }
 .new-grid p {
@@ -420,7 +396,7 @@ p {
    
 
 }
-.date p{
+.date p {
     text-align: center;
 }
 .num {
