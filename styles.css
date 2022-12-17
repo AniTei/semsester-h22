@@ -292,14 +292,16 @@ p {
     'bilde tekst'
     'bilde dato'
     'bilde .';
-    margin-bottom: -20px;
+    margin-bottom: -8px;
 }
 .new-grid h2{
+    width: 390px;
     padding: 0;
     margin: 0;
     grid-area: overskrift;
 }
 .new-grid p {
+    max-width: 380px;
     padding: 0;
     margin: 0;
     grid-area: tekst;
@@ -307,11 +309,17 @@ p {
 .date {
     color: #ffffff;
     background-color: #2241df;
-    max-width: 100px;
+    max-width: 80px;
     height: fit-content;
     grid-area: dato;
     margin: 0;
     padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+   
+
+}
+.date p{
+    text-align: center;
 }
 .num {
     font-size: 3em;
