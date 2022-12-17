@@ -24,11 +24,13 @@ nav{
 
 nav a {
     color: #000000;
-    text-decoration: none;
     font-size: 1.2em;
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
 
 main {
     max-width: 800px;
@@ -72,12 +74,89 @@ p {
     margin: 0;
 }
 
-/*forside*/
+/*frontpage*/
 
+.front p{
+    text-align: center;
+}
 .slogan {
     color: #ff3a00;
+    font-size: 3em;
+    padding: 0px 250px 0px 250px;
+    background-color: #00000059;
+    position: relative;
+    top: 252px;
+    margin-top: -318px;
+    text-align: center;
+}
+.blue {
+    background-color: #bdc6f6;
+    padding: 187px 0px 187px 0px;
+    margin: 0px 300px 10px 0px;
+}
+.front-vr {
+    max-width: 400px;
+    position: relative;
+    left: 400px;
+    bottom: 460px;
+    margin-bottom: -215px;
+}
+.green {
+    background-color: #c6e9e9;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'gronnbilde gronntekst';
+}
+.front-hjerte {
+    max-width: 300px;
+    padding: 50px;
+    background-color: #c6e9e9;
+    grid-area: gronnbilde;
+}
+.gronntekst {
+    grid-area: gronntekst;
+    margin: auto;
+}
+.red {
+    background-color: #ffc4b3;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'rodtekst rodbilde';
+}
+.rodtekst{
+    grid-area: rodtekst;
+    margin: auto;
 }
 
+.front-turbin {
+    max-width: 300px;
+    padding: 50px;
+    background-color: #ffffff;
+    grid-area: rodbilde;
+ 
+}
+.cta {
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    font-size: 1em;
+}
+.bla {
+    background-color: #2241df;
+    color: #ffffff;
+}
+.gronn {
+    background-color: #3eb4b4;
+    color: #000000;
+}
+.rod{
+    background-color: #ff3a00;
+    color: #000000;
+}
 
 /*explore*/
 
@@ -214,24 +293,21 @@ p {
     'bilde dato'
     'bilde .';
     margin-bottom: -20px;
-
 }
 .new-grid h2{
     padding: 0;
     margin: 0;
     grid-area: overskrift;
 }
-
 .new-grid p {
     padding: 0;
     margin: 0;
     grid-area: tekst;
 }
-
 .date {
     color: #ffffff;
     background-color: #2241df;
-    width: 360px;
+    max-width: 100px;
     height: fit-content;
     grid-area: dato;
     margin: 0;
@@ -248,36 +324,11 @@ p {
     grid-area: bilde;
 }
 
-/*volunteer*/
-.vol{
-    background-color: #bdc6f6;
-    width: 400px;
-    float: right;
-}
-.int{
-    clear: right;
-}
-.int h2 {
-    padding-top: 0;
-}
-.vol-end{
-    background-color: #c6e9e9;
-}
-.vol-end img{
-    margin: 50px;
-    max-width: 300px;
-}
-.hall {
-    float: right;
-    position: relative;
-    bottom: 150px;
-}
-
-
-
 /*visit*/
+
 .hou{
     background-color: #ffc4b3;
+    padding-bottom: 30px;
     width: 400px;
     margin: 0 0;
 }
@@ -303,4 +354,31 @@ p {
 .wir {
     margin-top: 50px;
     margin-bottom: -5px;
+}
+
+/*volunteer*/
+
+.vol{
+    background-color: #bdc6f6;
+    padding-bottom: 30px;
+    width: 400px;
+    float: right;
+}
+.int{
+    clear: right;
+}
+.int h2 {
+    padding-top: 0;
+}
+.vol-end{
+    background-color: #c6e9e9;
+}
+.vol-end img{
+    margin: 50px;
+    max-width: 300px;
+}
+.hall {
+    float: right;
+    position: relative;
+    bottom: 150px;
 }
