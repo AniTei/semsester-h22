@@ -1,4 +1,4 @@
-/*felles*/
+/*ALL PAGES*/
 main {
     max-width: 800px;
     background-color: #ffffff;
@@ -38,8 +38,7 @@ img {
     max-width: 100%;
 }
 
-/*STOR*/
-
+/*ALL PAGES - STOR*/
 @media (min-width: 836px) {
     body {
         background-color: #e9ecfb;
@@ -91,8 +90,7 @@ img {
     }
 }
 
-/*LITEN*/
-
+/*ALL PAGES - LITEN*/
 @media (max-width: 835px) {
     body {
         background-color: #ffffff;
@@ -144,7 +142,7 @@ img {
         margin-bottom: 80px;
     }
     h2 {
-        padding: 50px 50px 0px 50px;
+        padding: 50px 50px 0px 10%;
     }
     p {
         max-width: 80%;
@@ -152,11 +150,7 @@ img {
     }
 }
 
-
-
-/*frontpage*/
-/*FELLES*/
-
+/*FRONTPAGE-FELLES*/
 .front p {
     text-align: center;
 }
@@ -190,8 +184,7 @@ img {
 
 
 
-/*STOR*/
-
+/*FRONTPAGE-STOR*/
 @media (min-width: 836px) {
     .front-vr {
         max-width: 400px;
@@ -238,11 +231,8 @@ img {
         background-color: #ffffff;
         grid-area: rodbilde;
     }
-  
 }
-
-/*LITEN*/
-
+/*FRONTPAGE-LITEN*/
 @media (max-width: 835px) {
     .front-vr,
     .front-hjerte,
@@ -266,9 +256,6 @@ img {
         max-width: 80%;
         margin-left: 10%;
     }
-  
-
-
 }
 
 
@@ -280,7 +267,7 @@ img {
 
 
 
-/*explore*/
+/*EXPLORE*/
 
 
 .elev {
@@ -320,89 +307,138 @@ img {
 }
 
 
-/*exhibitions*/
 
-
-
-.cos {
-    background-color: #bdc6f6;
-    max-width: 600px;
-    padding-bottom: 100px;
-}
-.mane{
-    max-width: 600px;
-    position: relative;
-    left: 200px;
-    bottom: 78px;
-}
-    
+/*EXHIBITIONS-FELLES*/
 .evo {
-    background-color: #ffc4b3;
-    max-width: 600px;
-    margin-left: 100px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-
+    background-color: #ffc4b3; 
 }
-.fossil {
-    max-width: 400px;
-    position: relative;
-    bottom: 166px;
-    margin-bottom: -250px;
-}
-.bio {
-    padding-left: 300px;
-    padding-bottom: 30px;
-    max-width: 700px;
-    margin: 0px 0px 50px 100px;
-    border-bottom: #3eb4b4 100px solid;
-
-}
-.bio h2 {
-    max-width: 150px;
-    text-align: center;
-    margin: auto;
-    padding-left: 0;
-}
-
-.exh-hjerte {
-    width: 400px;
-    position: relative;
-    margin-top: -500px;
-    float: left;
-}
-
 .rob {
     background-color:#bdc6f6;
-    margin-right: 300px;
-    padding: 120px 0px 120px 0px;
-
-    
 }
-.exh-vr{
-    max-width: 400px;
-    position: relative;
-    left: 400px;
-    bottom: 450px;
-    margin-bottom: -300px;
-}
-.maur {
-    max-width: 300px;
-    margin: 0px 50px -468px 50px;
-    position: relative;
-    bottom: 462px;
-}
-
 .eco {
     background-color: #c6e9e9;
-    padding: 0px 0px 20px 400px;
-
 }
 
+/*EXHIBITIONS-STOR*/
+@media (min-width: 836px) {
+    .cos {
+        background-color: #bdc6f6;
+        max-width: 600px;
+        padding-bottom: 100px;
+    }
+    .mane{
+        max-width: 600px;
+        position: relative;
+        left: 200px;
+        bottom: 78px;
+    } 
+    .evo {
+        max-width: 600px;
+        margin-left: 100px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+    }
+    .fossil {
+        max-width: 400px;
+        position: relative;
+        bottom: 166px;
+        margin-bottom: -250px;
+    }
+    .bio {
+        padding-left: 300px;
+        padding-bottom: 30px;
+        max-width: 700px;
+        margin: 0px 0px 50px 100px;
+        border-bottom: #3eb4b4 100px solid;
+    }
+    .bio h2 {
+        max-width: 150px;
+        text-align: center;
+        margin: auto;
+        padding-left: 0;
+    }
+    .exh-hjerte {
+        width: 400px;
+        position: relative;
+        margin-top: -500px;
+        float: left;
+    }
+    .rob {
+        margin-right: 300px;
+        padding: 120px 0px 120px 0px; 
+    }
+    .exh-vr{
+        max-width: 400px;
+        position: relative;
+        left: 400px;
+        bottom: 450px;
+        margin-bottom: -300px;
+    }
+    .exh-maur {
+        max-width: 300px;
+        margin: 0px 50px -468px 50px;
+        position: relative;
+        bottom: 462px;
+    }
+    .eco {
+        padding: 0px 0px 20px 400px;
+    }
+}
 
-/*news*/
-/*FELLES*/
+/*EXHIBITIONS-LITEN*/
+@media (max-width: 835px) {
+    .mane {
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .evo {
+        padding-bottom: 200px;
+    }
+    .fossil {
+        max-width: 90%;
+        position: relative;
+        bottom: 200px;
+        margin-bottom: -200px;
+    }
+    .hjerte-box {
+        background-color: #3eb4b4;
+        max-width: 100%;
+    }
+    .exh-hjerte {
+        max-width: 85%;
+        position: relative;
+        left: 15%;
+        top: 60px;
+    }
+    .rob h2 {
+        margin-top: 120px;
+    }
+    .exh-vr {
+        max-width: 80%;
+        margin-left: 10%;
+        position: relative;
+        bottom: 200px;
+        margin-bottom: -200px;
+    }
+    .rob {
+        padding-bottom: 200px;
+    }
+    .eco h2 {
+        margin-top: 60px;
+    }
+    .exh-maur {
+        max-width: 60%;
+        margin-left: 30%;
+        position: relative;
+        bottom: 230px;
+        margin-bottom: -220px;
+    }
+    .eco {
+        padding-bottom: 250px;
+    }
+}
 
+/*NEWS-FELLES*/
 .date-box{
     margin: 0;
     padding: 10px 10px 0px 10px;
@@ -411,7 +447,6 @@ img {
     max-width: 80px;
     height: fit-content;
 }
-
 .date-box p {
     text-align: center;
     margin: 0;
@@ -421,10 +456,8 @@ img {
     padding: 0px 0px 0px 10px;
 }
 
-/*STOR*/
-
+/*NEWS-STOR*/
 @media (min-width: 836px) {
-
     .new-grid {
         margin-top: 100px;
         display: grid;
@@ -459,8 +492,7 @@ img {
     }
 }
 
-/*LITEN*/
-
+/*NEWS-LITEN*/
 @media (max-width: 835px) {
     .date-box {
         width: 70px;
@@ -474,12 +506,7 @@ img {
     }
 }
 
-
-
-
-/*visit*/
-/*FELLES*/
-
+/*VISIT-FELLES*/
 .hou{
     background-color: #ffc4b3;
     padding-bottom: 30px;
@@ -488,9 +515,7 @@ img {
     margin-top: 50px;
     margin-bottom: -5px;
 }
-
-/*STOR*/
-
+/*VISIT-STOR*/
 @media (min-width: 836px) {
     .hou{
         width: 400px;
@@ -515,7 +540,6 @@ img {
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: auto auto;
     }
-    
 }
 
 
