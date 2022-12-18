@@ -1,6 +1,6 @@
 /*ALL PAGES*/
 main {
-    max-width: 800px;
+  
     background-color: #ffffff;
 }
 header{
@@ -44,6 +44,7 @@ img {
         background-color: #e9ecfb;
     }
     main{
+        max-width: 800px;
         border-style: solid;
         border-color: #ffffff;
         border-width: 10px;
@@ -138,7 +139,7 @@ img {
         border:none;
     }
     h1 {
-        padding: 30px 50px 0px 50px;
+        padding: 30px 50px 0px 10%;
         margin-bottom: 80px;
     }
     h2 {
@@ -267,44 +268,73 @@ img {
 
 
 
-/*EXPLORE*/
-
-
-.elev {
-    background-color: #c6e9e9;
-    padding: 50px 0px 0px 0px;
-    max-width: 350px;
-    float: left;
-    margin-top: 40px;
-}
-.elev img {
-    max-width: 350px;
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-
-.kid{
-    float: right;
-    margin-bottom: 30px;
-}
-.tea {
-    float: left;
-    position: relative;
-    top: 300px;
-}
+/*FELLES-EXPLORE*/
 .res {
     background-color:#bdc6f6;
-    max-width: 400px;
-    float: right;
-    padding: 350px 0px 200px 0px;
 }
-.hjerne {
-    max-width: 700px;
-    position: relative;
-    bottom: 180px;
-    margin-bottom: -185px;
+
+/*EXPLORE-STOR*/
+@media (min-width: 836px){
+    .elev {
+        background-color: #c6e9e9;
+        padding: 50px 0px 0px 0px;
+        max-width: 350px;
+        float: left;
+        margin-top: 40px;
+    }
+    .elev img {
+        max-width: 350px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    .kid{
+        float: right;
+        margin-bottom: 30px;
+    }
+    .tea {
+        float: left;
+        position: relative;
+        top: 300px;
+    }
+    .res {
+        max-width: 400px;
+        float: right;
+        padding: 350px 0px 200px 0px;
+    }
+    .hjerne {
+        max-width: 750px;
+        position: relative;
+        bottom: 180px;
+        margin-bottom: -185px;
+    }
+
 }
+/*EXPLORE-LITEN*/
+@media (max-width: 835px) {
+    .kid {
+        border-bottom: #c6e9e9 solid 200px;
+    }
+    .elev img {
+        width: 70%;
+        margin-left: 20%;
+        position: relative;
+        bottom: 170px;
+        margin-bottom: -170px;
+    }
+    .hjerne {
+        width: 100%;
+    }
+    .tea {
+        margin-bottom: 60px;
+    }
+    .res {
+        padding: 30px 0 30px 0;
+    }
+
+}
+
 
 
 
