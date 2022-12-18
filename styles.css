@@ -160,19 +160,35 @@ img {
 .front p {
     text-align: center;
 }
-.blue-area {
-    background-color: #bdc6f6;
-}
 .cta {
     padding: 10px 0px 10px 0px;
     border-radius: 10px;
     margin: 0px 50px 0px 50px;
     font-size: 1em;
 }
+.blue-area {
+    background-color: #bdc6f6;
+}
 .bla-btn {
     background-color: #2241df;
     color: #ffffff;
 }
+.green-area {
+    background-color: #c6e9e9;
+}
+.gronn-btn {
+    background-color: #3eb4b4;
+    color: #000000;
+}
+.rod-btn {
+    background-color: #ff3a00;
+    color: #000000;
+}
+.red-area {
+    background-color: #ffc4b3;
+}
+
+
 
 
 
@@ -190,6 +206,42 @@ img {
         padding: 187px 0px 187px 0px;
         margin: 0px 300px 10px 0px;
     }
+    .green-area {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr;
+        grid-template-areas: 'gronnbilde gronntekst';
+    }
+    .front-hjerte {
+        max-width: 300px;
+        padding: 50px;
+        background-color: #c6e9e9;
+        grid-area: gronnbilde;
+    }
+    .gronntekst {
+        grid-area: gronntekst;
+        margin: auto;
+    }
+    .red-area {
+        background-color: #ffc4b3;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr;
+        grid-template-areas: 'rodtekst rodbilde';
+    }
+    .rodtekst{
+        grid-area: rodtekst;
+        margin: auto;
+    }
+    .front-turbin {
+        max-width: 300px;
+        padding: 50px;
+        background-color: #ffffff;
+        grid-area: rodbilde;
+     
+    }
   
     
 }
@@ -197,16 +249,20 @@ img {
 /*LITEN*/
 
 @media (max-width: 835px) {
-    .front-vr {
+    .front-vr,
+    .front-hjerte,
+    .front-turbin {
         max-width: 30%;
         margin-left: 35%;
         position: relative;
         z-index: 5;
     }
-    .blue-area{
-        max-width: 100%;
+    .front {
+         max-width: 100%;
         padding-top: 20%;
         padding-bottom: 10%;
+    }
+    .blue-area{
         position: relative;
         bottom: 60px;
         margin-bottom: -60px;
@@ -215,7 +271,7 @@ img {
         max-width: 80%;
         margin-left: 10%;
     }
- 
+  
 
 
 }
@@ -233,55 +289,15 @@ img {
 
 
 
-.green {
-    background-color: #c6e9e9;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'gronnbilde gronntekst';
-}
-.front-hjerte {
-    max-width: 300px;
-    padding: 50px;
-    background-color: #c6e9e9;
-    grid-area: gronnbilde;
-}
-.gronntekst {
-    grid-area: gronntekst;
-    margin: auto;
-}
-.red {
-    background-color: #ffc4b3;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'rodtekst rodbilde';
-}
-.rodtekst{
-    grid-area: rodtekst;
-    margin: auto;
-}
-
-.front-turbin {
-    max-width: 300px;
-    padding: 50px;
-    background-color: #ffffff;
-    grid-area: rodbilde;
- 
-}
 
 
 
-.gronn {
-    background-color: #3eb4b4;
-    color: #000000;
-}
-.rod{
-    background-color: #ff3a00;
-    color: #000000;
-}
+
+
+
+
+
+
 
 /*explore*/
 
