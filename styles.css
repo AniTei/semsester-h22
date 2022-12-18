@@ -183,8 +183,6 @@ img {
     background-color: #ffc4b3;
 }
 
-
-
 /*FRONTPAGE-STOR*/
 @media (min-width: 836px) {
     .front-vr {
@@ -259,15 +257,6 @@ img {
     }
 }
 
-
-
-
-
-
-
-
-
-
 /*FELLES-EXPLORE*/
 .res {
     background-color:#bdc6f6;
@@ -288,7 +277,6 @@ img {
         top: 50px;
         left: 50px;
     }
-
     .kid{
         float: right;
         margin-bottom: 30px;
@@ -309,8 +297,8 @@ img {
         bottom: 180px;
         margin-bottom: -185px;
     }
-
 }
+
 /*EXPLORE-LITEN*/
 @media (max-width: 835px) {
     .kid {
@@ -332,11 +320,7 @@ img {
     .res {
         padding: 30px 0 30px 0;
     }
-
 }
-
-
-
 
 /*EXHIBITIONS-FELLES*/
 .evo {
@@ -572,34 +556,53 @@ img {
     }
 }
 
-
-
-
-/*volunteer*/
-
-.vol{
+/*VOLUNTEER - FELLES*/
+.vol {
     background-color: #bdc6f6;
     padding-bottom: 30px;
-    width: 400px;
-    float: right;
-}
-.int{
-    clear: right;
-}
-.int h2 {
-    padding-top: 0;
 }
 .vol-end{
     background-color: #c6e9e9;
 }
-.vol-end img{
-    margin: 50px;
-    max-width: 300px;
-}
-.hall {
-    float: right;
-    position: relative;
-    bottom: 150px;
+
+/*VOLUNTEER-STOR*/
+@media (min-width: 836px) {
+    .vol{
+        width: 400px;
+        float: right;
+    }
+    .int{
+        clear: right;
+    }
+    .int h2 {
+        padding-top: 0;
+    }
+    
+    .vol-end img{
+        margin: 50px;
+        max-width: 300px;
+    }
+    .hall {
+        float: right;
+        position: relative;
+        bottom: 150px;
+    }
 }
 
-/*media queries*/
+/*NEWS-LITEN*/
+@media (max-width: 835px) {
+    .int {
+        margin-bottom: 100px;
+    }
+    .vol-end img{
+        max-width: 45%;
+    }
+    .lesesal {
+        position: relative;
+        bottom: 50px;
+    }
+    .hall {
+        float: right;
+        position: relative;
+        top: 50px;
+}
