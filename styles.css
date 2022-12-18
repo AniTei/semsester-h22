@@ -144,7 +144,7 @@ img {
         margin-bottom: 80px;
     }
     h2 {
-        padding: 20px 0px 10px 50px;
+        padding: 50px 0px 0px 50px;
     }
     p {
         max-width: 80%;
@@ -187,9 +187,6 @@ img {
 .red-area {
     background-color: #ffc4b3;
 }
-
-
-
 
 
 
@@ -240,10 +237,8 @@ img {
         padding: 50px;
         background-color: #ffffff;
         grid-area: rodbilde;
-     
     }
   
-    
 }
 
 /*LITEN*/
@@ -275,20 +270,6 @@ img {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -472,36 +453,48 @@ img {
 }
 
 /*visit*/
+/*FELLES*/
 
 .hou{
     background-color: #ffc4b3;
     padding-bottom: 30px;
-    width: 400px;
-    margin: 0 0;
-}
-.hou p {
-    margin:auto;
-    text-align: center;
-} 
-.hou h2 {
-    margin: auto;    
-    padding-left: 0;
-    padding-bottom: 20px;
-    text-align: center;
-}
-.adm{
-    max-width: 400px;
-}
-.vis-grid {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto auto;
 }
 .wir {
     margin-top: 50px;
     margin-bottom: -5px;
 }
+
+/*STOR*/
+
+@media (min-width: 836px) {
+    .hou{
+        width: 400px;
+        margin: 0 0;
+    }
+    .hou p {
+        margin:auto;
+        text-align: center;
+    } 
+    .hou h2 {
+        margin: auto;    
+        padding-left: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .adm{
+        max-width: 400px;
+    }
+    .vis-grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: auto auto;
+    }
+    
+}
+
+
+
 
 /*volunteer*/
 
