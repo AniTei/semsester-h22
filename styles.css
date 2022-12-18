@@ -1,15 +1,7 @@
 /*felles*/
-
-body {
-    background-color: #e9ecfb;
-}
 main {
     max-width: 800px;
-    margin: auto;
     background-color: #ffffff;
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 10px;
 }
 header{
     background-color: #ffffff;
@@ -42,10 +34,22 @@ h2{
 p {
     font-family: 'Roboto Slab', serif;
 }
+img {
+    max-width: 100%;
+}
 
 /*STOR*/
 
 @media (min-width: 836px) {
+    body {
+        background-color: #e9ecfb;
+    }
+    main{
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 10px;
+        margin: auto;
+    }
     header{
         height: 120px;
     }
@@ -56,7 +60,6 @@ p {
     #menu-checkbox,
     .material-symbols-outlined {
         display: none;
-
     }
     nav{
         display: flex;
@@ -86,12 +89,15 @@ p {
         padding: 0px 50px 20px 50px;
         margin: 0;
     }
-    
 }
 
 /*LITEN*/
 
 @media (max-width: 835px) {
+    body {
+        background-color: #ffffff;
+        margin: 0;
+    }
     header {
         height: 100px;
     }
@@ -144,43 +150,89 @@ p {
         max-width: 80%;
         margin-left: 10%;
     }
-
-
-
-
 }
-
-
 
 
 
 /*frontpage*/
+/*FELLES*/
 
 .front p {
     text-align: center;
 }
-.slogan {
-    color: #ff3a00;
-    font-size: 3em;
-    padding: 0px 250px 0px 250px;
-    background-color: #00000059;
-    position: relative;
-    top: 252px;
-    margin-top: -318px;
-    text-align: center;
-}
-.blue {
+.blue-area {
     background-color: #bdc6f6;
-    padding: 187px 0px 187px 0px;
-    margin: 0px 300px 10px 0px;
 }
-.front-vr {
-    max-width: 400px;
-    position: relative;
-    left: 400px;
-    bottom: 460px;
-    margin-bottom: -215px;
+.cta {
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    font-size: 1em;
 }
+.bla-btn {
+    background-color: #2241df;
+    color: #ffffff;
+}
+
+
+
+
+/*STOR*/
+
+@media (min-width: 836px) {
+    .front-vr {
+        max-width: 400px;
+        position: relative;
+        float: right;
+        top: 50px;
+    }
+    .blue-area {
+        padding: 187px 0px 187px 0px;
+        margin: 0px 300px 10px 0px;
+    }
+  
+    
+}
+
+/*LITEN*/
+
+@media (max-width: 835px) {
+    .front-vr {
+        max-width: 30%;
+        margin-left: 35%;
+        position: relative;
+        z-index: 5;
+    }
+    .blue-area{
+        max-width: 100%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        position: relative;
+        bottom: 60px;
+        margin-bottom: -60px;
+    }
+    .cta {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .green {
     background-color: #c6e9e9;
     margin-top: 5px;
@@ -219,16 +271,9 @@ p {
     grid-area: rodbilde;
  
 }
-.cta {
-    padding: 10px 0px 10px 0px;
-    border-radius: 10px;
-    margin: 0px 50px 0px 50px;
-    font-size: 1em;
-}
-.bla {
-    background-color: #2241df;
-    color: #ffffff;
-}
+
+
+
 .gronn {
     background-color: #3eb4b4;
     color: #000000;
