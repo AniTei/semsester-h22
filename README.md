@@ -1,58 +1,72 @@
-# semsester-h22
 
-Your project title
+##Semester project 1, fall 2022, «Community science museum»
 
+The purpose of this project was to answer the assignment given at the end of the first semester of my Front-End studies at Noroff, fall 2022.
+The brief said to make an informative website for a new museum, «the Community Science Museum», its target audience being children and families with young children. 
 
-A simple overview of the use/purpose of the project.
 
 Description
 
-Add a more detailed description of what your project entails and set out to do.
+The project is a static, brochure kind, website. Its main purpose is to be informative for potential visitors. 
 
-You can add some bullet points if you'd like to:
+The site is made up of 6 pages:
+- A front page
+- An explore page, what different groups might find interesting at the museum
+- A page showing the different exhibitions 
+- A page showing upcoming events
+- A page with practical information for visitors
+- And a page for people interested in volunteering
 
-List item 1
-List item 2
-List item 3
+The website is built to be responsive, and look good and thereby be user-friendly on different devices.
+
+The website has a light yet serious design. The blue of the logo and body suggests a more traditional feel, while the light green details can be associated with ongoing climate challenges, and that the sciences play a role in solving these. Mostly white backgrounds and black font makes for a utilitarian site over all, taking into account that the main goal of the site is to be informative. 
+
+
 Built With
 
-You can list a the tech stack that you've used over here
+The site is all hard coded. Most of the content was provided with the assignment, but some of the images I got from Unsplash. I worked in vsCode when building the project, and used GitHub to keep up with changes and versions. The project only uses HTML and CSS. The site is deployed to Netlify.
 
-React.js
-Bootstrap
+
 Getting Started
 
 Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+There is no installment needed to access the site. It can be viewed as a user, by using Netlily. 
 
-Clone the repo:
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-Install the dependencies:
-npm install
+	https://gleeful-truffle-da3462.netlify.app
+
+
+To see the files the site is made up of, go to the GitHub repo.
+
+	https://github.com/AniTei/semsester-h22
+
+
+
 Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+The site can be viewed as a user, by using Netlily. 
+	https://gleeful-truffle-da3462.netlify.app
 
-To run the app, run the following commands:
 
-npm run start
+To see the files the site is made up of, go to the GitHub repo.
+	https://github.com/AniTei/semsester-h22
+
+
+
 Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Because of the nature of the project (answer to course assignment), there will be no contributions beyond my initial build. 
 
 Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+My LinkedIn page:
+https://www.linkedin.com/in/anine-teigland-a82b1a263/
 
-My Twitter page
+My GitHub page:
+https://github.com/AniTei
 
-My LinkedIn page
-
-License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Thank you to users who tested my site, and for their feedback. Thank you to teachers for feed back with the grading.
+
